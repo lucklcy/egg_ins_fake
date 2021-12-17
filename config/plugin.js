@@ -6,4 +6,8 @@ module.exports = {
   // static: {
   //   enable: true,
   // }
+  alinode: {
+    enable: true,
+    package: 'egg-alinode',
+  },
 };
