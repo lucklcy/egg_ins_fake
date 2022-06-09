@@ -10,4 +10,11 @@ module.exports = {
     enable: true,
     package: 'egg-alinode',
   },
+
+  // config/plugin.js
+
+  mysql: {
+    enable: true,
+    package: 'egg-mysql',
+  },
 };

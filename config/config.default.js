@@ -36,6 +36,25 @@ module.exports = appInfo => {
     // agentidMode:'IP' '可选，如果设置，则在实例ID中添加部分IP信息，用于多个实例 hostname 相同的场景（以容器为主）'
   };
 
+  config.mysql = {
+    client: {
+      // host
+      host: '1.15.17.206',
+      // 端口号
+      port: '3306',
+      // 用户名
+      user: 'root',
+      // 密码
+      password: 'Ybhlcy119',
+      // 数据库名
+      database: 'test',
+    },
+    // 是否加载到 app 上，默认开启
+    app: true,
+    // 是否加载到 agent 上，默认关闭
+    agent: false,
+  };
+
   return {
     ...config,
     ...userConfig,
